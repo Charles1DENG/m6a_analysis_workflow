@@ -1,0 +1,87 @@
+nohup: ignoring input
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                                                                            ||
+||                           R1_925_input.filter.bam                          ||
+||                           R1_1101_input.filter.bam                         ||
+||                           E27_heart_input.filter.bam                       ||
+||                           E22_heart_input.filter.bam                       ||
+||                           A2_heart_input.filter.bam                        ||
+||                           A1_heart_input.filter.bam                        ||
+||                                                                            ||
+||             Output file : final_counts_input.txt                           ||
+||                 Summary : final_counts_input.txt.summary                   ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : Mouse.gencode.vM32.chr_patch_hapl_scaff.anno ... ||
+||      Dir for temp files : ./counts_out                                     ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mouse.gencode.vM32.chr_patch_hapl_scaff.annotatio ... ||
+||    Features : 868902                                                       ||
+||    Meta-features : 56860                                                   ||
+||    Chromosomes/contigs : 39                                                ||
+||                                                                            ||
+|| Process BAM file R1_925_input.filter.bam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 19128188                                             ||
+||    Successfully assigned alignments : 3735448 (19.5%)                      ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Process BAM file R1_1101_input.filter.bam...                               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 17021363                                             ||
+||    Successfully assigned alignments : 3378167 (19.8%)                      ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+|| Process BAM file E27_heart_input.filter.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 19940624                                             ||
+||    Successfully assigned alignments : 3858782 (19.4%)                      ||
+||    Running time : 0.29 minutes                                             ||
+||                                                                            ||
+|| Process BAM file E22_heart_input.filter.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 17967677                                             ||
+||    Successfully assigned alignments : 4021030 (22.4%)                      ||
+||    Running time : 0.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file A2_heart_input.filter.bam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 15334703                                             ||
+||    Successfully assigned alignments : 5688194 (37.1%)                      ||
+||    Running time : 0.25 minutes                                             ||
+||                                                                            ||
+|| Process BAM file A1_heart_input.filter.bam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 15971884                                             ||
+||    Successfully assigned alignments : 5675853 (35.5%)                      ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "./counts_out/final_coun  ||
+|| ts_input.txt.summary"                                                      ||
+||                                                                            ||
+\\============================================================================//
+

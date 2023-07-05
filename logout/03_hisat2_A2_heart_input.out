@@ -1,0 +1,19 @@
+nohup: ignoring input
+19208924 reads; of these:
+  19208924 (100.00%) were paired; of these:
+    441765 (2.30%) aligned concordantly 0 times
+    15072129 (78.46%) aligned concordantly exactly 1 time
+    3695030 (19.24%) aligned concordantly >1 times
+    ----
+    441765 pairs aligned concordantly 0 times; of these:
+      38963 (8.82%) aligned discordantly 1 time
+    ----
+    402802 pairs aligned 0 times concordantly or discordantly; of these:
+      805604 mates make up the pairs; of these:
+        507079 (62.94%) aligned 0 times
+        238247 (29.57%) aligned exactly 1 time
+        60278 (7.48%) aligned >1 times
+98.68% overall alignment rate
+Finished !
+
+Time consumption: 1521.9833s

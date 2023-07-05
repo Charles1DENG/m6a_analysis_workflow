@@ -1,0 +1,14 @@
+
+  /// MultiQC 🔍 | v1.14
+
+|           multiqc | Search path : /home/charles/Projects/m6a_data/fastqc_out
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 48/48  
+|            fastqc | Found 24 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : ../fastqc_out/multiqc_report.html
+|           multiqc | Data        : ../fastqc_out/multiqc_data
+|           multiqc | MultiQC complete
+/home/charles/softwares/miniconda3/bin/multiqc /home/charles/Projects/m6a_data/upstream_pipline/../fastqc_out
+Finished !
+
+Time consumption: 3.3540s

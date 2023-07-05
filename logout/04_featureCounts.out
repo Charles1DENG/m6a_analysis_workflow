@@ -1,0 +1,141 @@
+nohup: ignoring input
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 12 BAM files                                     ||
+||                                                                            ||
+||                           R1_925_input.filter.bam                          ||
+||                           R1_925_IP.filter.bam                             ||
+||                           R1_1101_input.filter.bam                         ||
+||                           R1_1101_IP.filter.bam                            ||
+||                           E27_heart_input.filter.bam                       ||
+||                           E27_heart_IP.filter.bam                          ||
+||                           E22_heart_input.filter.bam                       ||
+||                           E22_heart_IP.filter.bam                          ||
+||                           A2_heart_input.filter.bam                        ||
+||                           A2_heart_IP.filter.bam                           ||
+||                           A1_heart_input.filter.bam                        ||
+||                           A1_heart_IP.filter.bam                           ||
+||                                                                            ||
+||             Output file : final_counts.txt                                 ||
+||                 Summary : final_counts.txt.summary                         ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Mouse.gencode.vM32.chr_patch_hapl_scaff.anno ... ||
+||      Dir for temp files : ./counts_out                                     ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mouse.gencode.vM32.chr_patch_hapl_scaff.annotatio ... ||
+||    Features : 868902                                                       ||
+||    Meta-features : 56860                                                   ||
+||    Chromosomes/contigs : 39                                                ||
+||                                                                            ||
+|| Process BAM file R1_925_input.filter.bam...                                ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 37958601                                             ||
+||    Successfully assigned alignments : 7004287 (18.5%)                      ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Process BAM file R1_925_IP.filter.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 33220925                                             ||
+||    Successfully assigned alignments : 5809943 (17.5%)                      ||
+||    Running time : 0.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file R1_1101_input.filter.bam...                               ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 33693335                                             ||
+||    Successfully assigned alignments : 6306119 (18.7%)                      ||
+||    Running time : 0.28 minutes                                             ||
+||                                                                            ||
+|| Process BAM file R1_1101_IP.filter.bam...                                  ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 33459944                                             ||
+||    Successfully assigned alignments : 5790342 (17.3%)                      ||
+||    Running time : 0.15 minutes                                             ||
+||                                                                            ||
+|| Process BAM file E27_heart_input.filter.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 39544806                                             ||
+||    Successfully assigned alignments : 7069720 (17.9%)                      ||
+||    Running time : 0.28 minutes                                             ||
+||                                                                            ||
+|| Process BAM file E27_heart_IP.filter.bam...                                ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 33153811                                             ||
+||    Successfully assigned alignments : 5755772 (17.4%)                      ||
+||    Running time : 0.25 minutes                                             ||
+||                                                                            ||
+|| Process BAM file E22_heart_input.filter.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 35679145                                             ||
+||    Successfully assigned alignments : 7562600 (21.2%)                      ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Process BAM file E22_heart_IP.filter.bam...                                ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 35624678                                             ||
+||    Successfully assigned alignments : 7397699 (20.8%)                      ||
+||    Running time : 0.20 minutes                                             ||
+||                                                                            ||
+|| Process BAM file A2_heart_input.filter.bam...                              ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 30460431                                             ||
+||    Successfully assigned alignments : 10973582 (36.0%)                     ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Process BAM file A2_heart_IP.filter.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 30724385                                             ||
+||    Successfully assigned alignments : 9894281 (32.2%)                      ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file A1_heart_input.filter.bam...                              ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 31688912                                             ||
+||    Successfully assigned alignments : 10850354 (34.2%)                     ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file A1_heart_IP.filter.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 35796381                                             ||
+||    Successfully assigned alignments : 11177706 (31.2%)                     ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "./counts_out/final_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
